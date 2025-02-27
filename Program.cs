@@ -25,7 +25,7 @@ public class Program
         Console.WriteLine();
     }
 
-    public static void ShowData(List<Gamer> gamers)
+    private static void ShowData(List<Gamer> gamers)
     {
         foreach (var gamer in gamers)
             gamer.ShowData();
@@ -82,7 +82,7 @@ public enum Names
     Pavel,
     Boris,
     Klaiv,
-    ken,
+    Ken,
     Pol,
     Chak,
     Ben,
